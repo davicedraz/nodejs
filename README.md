@@ -9,7 +9,7 @@ Node.js & ExpressJS applications solves an isolated range of problems common to 
 So, the ideia is create a template so I wouldn't have to start my Node.js applications completely from scratch. I have plans to make this repository more and more complete as needs arise.
 
 - [ ] Socket.io
-- [x] Boilerplate API REST Express
+- [x] Rest API base 
 - [ ] Redis with Node.js
 - [ ] Design Pattern Strategy
 
