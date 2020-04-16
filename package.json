@@ -1,0 +1,35 @@
+{
+  "name": "safe2go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r sucrase/register index.js",
+    "dev": "SET NODE_ENV=development && nodemon index.js",
+    "dev:debug": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Instituto Atlantico",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "nunjucks": "^3.2.0",
+    "path": "^0.12.7",
+    "pg": "^7.9.0",
+    "sequelize": "^5.2.8",
+    "sucrase": "^3.10.1",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "sequelize-cli": "^5.4.0"
+  }
+}
