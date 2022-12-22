@@ -18,7 +18,7 @@
     "express": "^4.16.4",
     "express-async-errors": "^3.1.1",
     "http-status-codes": "^1.4.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "nunjucks": "^3.2.0",
     "path": "^0.12.7",
     "pg": "^7.9.0",
